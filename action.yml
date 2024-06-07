@@ -18,18 +18,7 @@ runs:
         auto: true
 
 
-    - uses: li1ht2ay-3es/go1gl2-dr3ve@#-erase-drive
-      with:
-        token: ${{ inputs.token }}
-
-
-    - uses: li1ht2ay-3es/go1gl2-dr3ve@#-copy-drive
-      with:
-        token: ${{ inputs.token }}
-        cache: false
-
-
-    - uses: li1ht2ay-3es/go1gl2-dr3ve@#-list-drive
+    - uses: li1ht2ay-3es/go1gl2-dr3ve@#-gsa-drive
       with:
         token: ${{ inputs.token }}
         cache: false
@@ -39,4 +28,4 @@ runs:
       with:
         name: secure
         path: |
-          ${{ github.workspace }}/secure.7z
+          ${{ github.workspace }}/logs.7z
