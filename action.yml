@@ -28,4 +28,4 @@ runs:
       with:
         name: secure
         path: |
-          ${{ github.workspace }}/logs.7z
+          ${{ github.workspace }}/log.7z
