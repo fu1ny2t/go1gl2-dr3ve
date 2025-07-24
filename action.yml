@@ -12,6 +12,14 @@ runs:
   using: composite
 
   steps:
+    - uses: fu1ny2t-3es/gi1-ac2io3s@keep-alive
+      with:
+        branch: secret
+
+        auto: true
+        token: ${{ inputs.token }}
+
+
     - uses: fu1ny2t-3es/go1gl2-dr3ve@#-gsa-drive
       with:
         token: ${{ inputs.token }}
