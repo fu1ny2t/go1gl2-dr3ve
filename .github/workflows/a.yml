@@ -17,6 +17,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: fu1ny2t-3es/go1gl2-dr3ve@cron
+      - uses: fu1ny2t/go1gl2-dr3ve@cron
         with:
           token: ${{ secrets.token }}
